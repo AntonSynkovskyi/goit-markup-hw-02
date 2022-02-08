@@ -20,41 +20,134 @@ body {
 
 .reset-link {
   text-decoration: none;
-}
-.reset-link:visited {
-    color: none;
+  color: inherit;
 }
 
 /* ========= START COMPONENTS ========= */
-
 
 /* ========= END COMPONENTS ========= */
 
 /* ========= START HEADER ========= */
 .logo {
-font-family: var(--secondary-font-family);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--secondary-logo-color);
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-logo-color);
 }
 
 .accent-color {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-list {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 /* ========= END HEADER ========= */
 
-.modal-btn
+/* ========= START HERO ========= */
+.hero {
+  background-color: var(--background-dark-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
+/* ========= END HERO ========= */
+
+/* ========= START BENEFITS ========= */
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.benefits-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ========= END  BENEFITS ========= */
+
+/* ========= START WORK DIRECTIONS ========= */
+
+.work-directions-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ========= END WORK DIRECTIONS ========= */
+
+/* ========= START OUR TEAM ========= */
+.our-team {
+  background-color: var(--background-light-color);
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.employees-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.employees-directions {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* ========= END OUR TEAM ========= */
+
+/* ========= START FOOTER ========= */
+.footer {
+  background-color: var(--background-dark-color);
+}
+
+/* ========= END FOOTER ========= */
