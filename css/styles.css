@@ -77,6 +77,7 @@ body {
 }
 
 .modal-btn {
+  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -145,6 +146,38 @@ body {
 }
 /* ========= END OUR TEAM ========= */
 
+/* ========= START PORTFOLIO MAIN SECTION ========= */
+
+.btn-filters {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background-color: var(--background-light-color);
+}
+
+.btn-filters:hover,
+.btn-filters:focus {
+  color: var(--background-dark-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+/* ========= END PORTFOLIO MAIN SECTION ========= */
+
 /* ========= START FOOTER ========= */
 .footer {
   background-color: var(--background-dark-color);
@@ -160,7 +193,6 @@ body {
 }
 
 .address-link {
-  font-family: var(--secondary-font-family);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71px;
