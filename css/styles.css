@@ -3,6 +3,7 @@
   --secondary-font-family: 'Raleway', sans-serif;
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
+  --background-dark-text-color: #ffffff;
   --accent-color: #2196f3;
   --secondary-logo-color: #000000;
   --background-dark-color: #2f303a;
@@ -24,7 +25,9 @@ body {
 }
 
 /* ========= START COMPONENTS ========= */
-
+.accent-color {
+  color: var(--accent-color);
+}
 /* ========= END COMPONENTS ========= */
 
 /* ========= START HEADER ========= */
@@ -37,9 +40,6 @@ body {
   color: var(--secondary-logo-color);
 }
 
-.accent-color {
-  color: var(--accent-color);
-}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -73,7 +73,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--background-dark-text-color);
 }
 
 .modal-btn {
@@ -81,7 +81,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--background-dark-text-color);
   background-color: var(--accent-color);
 }
 
@@ -150,4 +150,30 @@ body {
   background-color: var(--background-dark-color);
 }
 
+.footer-logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--background-dark-text-color);
+}
+
+.address-link {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.addres-secondary-color {
+  color: var(--background-dark-text-color);
+}
 /* ========= END FOOTER ========= */
